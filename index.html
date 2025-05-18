@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Web-Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <div class="flex container bg-black">
+      <div class="left">
+        <div class="home bg-grey rounded m1 p1">
+          <div class="logo">
+            <img class="invert" src="logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m1 p1">
+          <div class="heading">
+            <img class="invert" src="playlist.svg" alt="playlist" />
+            <h2>Your Library +</h2>
+          </div>
+          <div class="footer p1">
+            <div class="footer-links">
+              <a href="https://www.spotify.com/np-en/legal/">Legal</a>
+              <a href="https://www.spotify.com/np-en/safetyandprivacy/"
+                >Safety & Privacy Center</a
+              >
+              <a href="https://www.spotify.com/np-en/legal/privacy-policy/"
+                >Privacy Policy</a
+              >
+              <a href="https://www.spotify.com/np-en/legal/privacy-policy/#s3"
+                >About Ads</a
+              >
+              <a href="https://www.spotify.com/np-en/accessibility/"
+                >Accessibility</a
+              >
+            </div>
+            <div class="footer-bottom">
+              <a
+                href="https://www.spotify.com/legal/cookies-policy/"
+                target="_blank"
+                rel="noopener"
+                >Cookies</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="header bg-grey rounded flex m1 p1">
+          <div class="nav">
+            <div>
+              <input
+                class="order"
+                type="search"
+                placeholder="What do you want to play?"
+                spellcheck="false"
+              />
+            </div>
+          </div>
+          <div class="button">
+            <button class="signupbtn">Sign Up</button>
+            <button class="loginbtn">Log In</button>
+          </div>
+        </div>
+        <div class="spotify-playlist">
+          <h1>Suggested Playlist</h1>
+          <div class="card-container flex">
+            <div class="card">
+              <div class="play">
+              
+                <svg
+                  width="28px"
+                  height="28px"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <!-- Circle background -->
+                  <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+
+                  <!-- Play button, properly scaled and centered -->
+                  <g transform="scale(0.4) translate(16,16)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7.23832 3.04445C5.65196 2.1818 3.75 3.31957 3.75 5.03299V18.9672C3.75 20.6806 5.65196 21.8184 7.23832 20.9557L20.0503 13.9886C21.6499 13.1188 21.6499 10.8814 20.0503 10.0116L7.23832 3.04445ZM2.25 5.03299C2.25 2.12798 5.41674 0.346438 7.95491 1.72669L20.7669 8.6938C23.411 10.1317 23.411 13.8685 20.7669 15.3064L7.95491 22.2735C5.41674 23.6537 2.25 21.8722 2.25 18.9672V5.03299Z"
+                      fill="black"
+                    />
+                  </g>
+                </svg>
+              </div>
+
+              <img src="Happyhits.png" alt="happy hits" />
+              <h2>Happy Hits</h2>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            
+            
+            <div class="card">
+              <div class="play">
+                <svg
+                  width="28px"
+                  height="28px"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <!-- Circle background -->
+                  <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+
+                  <!-- Play button, properly scaled and centered -->
+                  <g transform="scale(0.4) translate(16,16)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M7.23832 3.04445C5.65196 2.1818 3.75 3.31957 3.75 5.03299V18.9672C3.75 20.6806 5.65196 21.8184 7.23832 20.9557L20.0503 13.9886C21.6499 13.1188 21.6499 10.8814 20.0503 10.0116L7.23832 3.04445ZM2.25 5.03299C2.25 2.12798 5.41674 0.346438 7.95491 1.72669L20.7669 8.6938C23.411 10.1317 23.411 13.8685 20.7669 15.3064L7.95491 22.2735C5.41674 23.6537 2.25 21.8722 2.25 18.9672V5.03299Z"
+                      fill="black"
+                    />
+                  </g>
+                </svg>
+              </div>
+
+              <img src="Happyhits.png" alt="happy hits" />
+              <h2>Happy Hits</h2>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+
+          </div>
+
+    <div class="playbar">playbar</div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

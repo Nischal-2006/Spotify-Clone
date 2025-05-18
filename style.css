@@ -1,0 +1,176 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.left {
+  margin-top: 10px;
+  width: 25vw;
+}
+h3 {
+  padding: 8px;
+}
+
+.home ul li {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  list-style: none;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.heading {
+  gap: 10px;
+  display: flex;
+  width: 100%;
+  font-weight: bold;
+  font-size: 13px;
+
+}
+.heading img {
+  width: 25px;
+}
+.library {
+  min-height: 70vh;
+  position: relative;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 600px;
+}
+
+.footer-links a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 12px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+}
+h1{
+    padding: 10px;
+}
+
+.footer-bottom a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 12px;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+}
+.right {
+  margin: 10px 0;
+  width: 75vw;
+}
+.header {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header * {
+  padding: 8px;
+}
+input {
+  border: none;
+  padding: 20px;
+  background-color: black;
+  width: 350px;
+  height: 50px;
+  border-radius: 20px;
+}
+input::placeholder {
+  color: #faf3f3;
+  text-align: center;
+  font-size: 1.1rem;
+}
+.card-container {
+  margin: 30px;
+  gap: 15px;
+  flex-wrap: wrap;
+  position: relative;
+  overflow-y: scroll;
+  max-height: 70vh;
+}
+
+.spotify-playlist .card {
+  width: 150px;
+  padding: 11px;
+  border-radius: 10px;
+  background-color: #252525;
+  font-size: 13px;
+}
+.card > * {
+  padding-top: 10px;
+}
+.card img {
+  width: 100%;
+  object-fit: contain;
+}
+.play{
+  position: absolute;
+    bottom: 100px;
+    left: 130px;
+}
+buttons > *{
+  margin : 0 12px
+}
+.signupbtn{
+  background-color: #252525;
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+.signupbtn:hover{
+  font-size: 15px;
+  color: #b3b3b3;
+  
+}
+.loginbtn{
+  background-color: #faf3f3;
+  color: black;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+padding: 10px;
+border-radius: 20px;
+width: 84px;
+}
+.loginbtn:hover{
+ padding: 11px 14px;
+
+  font-size: 14px;
+}
+.spotify-playlist{
+  position: relative;
+  
+}
+.playabar{
+  position: absolute;
+
+}
