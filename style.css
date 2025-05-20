@@ -82,6 +82,7 @@ h1{
 .right {
   margin: 10px 0;
   width: 75vw;
+  position:relative;
 }
 .header {
   flex-wrap: wrap;
@@ -166,11 +167,19 @@ width: 84px;
 
   font-size: 14px;
 }
-.spotify-playlist{
-  position: relative;
-  
-}
-.playabar{
-  position: absolute;
 
+  
+
+.playbar{
+  position: absolute;
+bottom: 0;
+background-color: rgb(120, 138, 120);
+width: 100%;
+padding: 12px;
+}
+.songbuttons{
+  display: flex;
+  justify-content: center;
+
+  gap: 15px;
 }
